@@ -7,27 +7,30 @@ if you need a refresher about how to do this. */
 html,body {height:100%;
 }
 body {
-  padding: 20px;
+  padding: 40px;
   font-family:'Cookie', cursive;
-  background: linear-gradient(180deg, #A9D0F5, #D0A9F5);
+  background: linear-gradient(180deg, #87CEFA, #AB82FF);
+  background-attachment:fixed;
   }
 
 h1 {
   font-size: 32pt;
   font-weight: lighter;
+  margin-bottom: 30px;
   }
 
 .pinkbox {
-  background-color:rgba(255,217,242,0.8);
+  background-color:#ffd2e8;
   padding: 20px;
-  border: 2px solid #FF69B4;
+  border: 2px solid black;
   border-radius: 4px;
   margin-bottom: 40px;
   }
 
 .year {
-  font-size:34px;
+  font-size:38px;
   font-weight: bold;
+  margin-right: 5px;
 }
 
 .songname {
@@ -52,7 +55,7 @@ h1 {
   padding: 10px;
   font-size: 24px;
   font-weight: lighter;
-  border: 2px solid #FF69B4;
+  border: 2px solid black;
   border-radius: 4px;
 }
 
