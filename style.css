@@ -18,9 +18,11 @@ h1 {
   font-weight: lighter;
   margin-bottom: 40px;
   font-family:'Pacifico';
+  display: flex;
+  align-items: center;
   }
 
-.pinkbox {
+.whitebox {
   background-color:white;
   padding: 20px;
   border: 3px solid black;
@@ -51,7 +53,7 @@ h1 {
   transform: scale(1.2);
 }
 
-.whitebox {
+.pinkbox {
   background-color: #ffd2e8;
   padding: 12px;
   font-size: 16px;
@@ -70,4 +72,20 @@ h1 {
   flex-grow:1;
   align-items: center;
   justify-content: center;
+}
+
+.heading{
+  display:flex;
+  align-items: center;
+}
+
+.titel{
+  display:flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.notes {
+  width: 250px;
+  margin-bottom: 15px;
 }
