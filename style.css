@@ -7,35 +7,36 @@ if you need a refresher about how to do this. */
 html,body {height:100%;
 }
 body {
-  padding: 40px;
-  font-family:'Cookie', cursive;
-  background: linear-gradient(180deg, #87CEFA, #AB82FF);
+  padding: 50px;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(180deg, #ffd2e8, #AB82FF);
   background-attachment:fixed;
   }
 
 h1 {
-  font-size: 32pt;
+  font-size: 38px;
   font-weight: lighter;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  font-family:'Pacifico';
   }
 
 .pinkbox {
-  background-color:#ffd2e8;
+  background-color:white;
   padding: 20px;
-  border: 2px solid black;
-  border-radius: 4px;
-  margin-bottom: 40px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-bottom: 55px;
   }
 
 .year {
-  font-size:38px;
-  font-weight: bold;
+  font-size:36px;
+  font-weight: bolder;
   margin-right: 5px;
 }
 
 .songname {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 22px;
   }
 
 .cover {
@@ -51,12 +52,11 @@ h1 {
 }
 
 .whitebox {
-  background-color: white;
-  padding: 10px;
-  font-size: 24px;
+  background-color: #ffd2e8;
+  padding: 12px;
+  font-size: 16px;
   font-weight: lighter;
-  border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .song{
@@ -65,7 +65,7 @@ h1 {
 }
 
 .link{
-  font-size: 32px;
+  font-size: 22px;
   display: flex;
   flex-grow:1;
   align-items: center;
